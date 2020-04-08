@@ -1,0 +1,14 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    padding: 10vh 0;
+}
+
+@media (max-width: 1024px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
