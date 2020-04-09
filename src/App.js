@@ -103,7 +103,6 @@ class App extends React.Component {
   clickForLike = (item) => {
     const { likedPhotos } = this.state;
 
-    console.log(item.id)
     const duplicates = likedPhotos.filter(photo => {
       return photo.id === item.id
     })
